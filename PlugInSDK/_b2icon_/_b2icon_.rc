@@ -1,0 +1,216 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// “ú–{Œê resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+ADDRESSBOOKICON         BITMAP                  "addressb.bmp"
+ADDRESSPERSON           BITMAP                  "addressp.bmp"
+ANIMATION               BITMAP                  "animatio.bmp"
+FOLDERCOLOR             BITMAP                  "folderco.bmp"
+FOLDERICON              BITMAP                  "folderic.bmp"
+LISTICON                BITMAP                  "listicon.bmp"
+PRIORITYSTAMP           BITMAP                  "priority.bmp"
+RULETREEICON            BITMAP                  "ruletree.bmp"
+TEMPLATEFOLDER          BITMAP                  "template.bmp"
+WHATSNEWLIST            BITMAP                  "whatsnew.bmp"
+IDR_ADDRESSBOOK         BITMAP                  "bmp00001.bmp"
+IDR_COMPOSEFRAME        BITMAP                  "composef.bmp"
+IDR_HTMLEDITOR          BITMAP                  "htmledit.bmp"
+IDR_MAINFRAME           BITMAP                  "mainfram.bmp"
+LISTICON2               BITMAP                  "listicon2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ADDRESSBOOK             ICON                    "addressb.ico"
+ANIMATION1_SMALL        ICON                    "animatio.ico"
+ANIMATION2_SMALL        ICON                    "ico00001.ico"
+COMPOSEFRAME            ICON                    "composef.ico"
+MAINFRAME               ICON                    "mainfram.ico"
+NEWARRIVAL1_SMALL       ICON                    "newarriv.ico"
+NEWARRIVAL2_SMALL       ICON                    "ico00002.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_ADDRESSBOOK TOOLBAR  16, 15
+BEGIN
+    BUTTON      32870
+    SEPARATOR
+    BUTTON      57635
+    BUTTON      57634
+    BUTTON      57637
+    SEPARATOR
+    BUTTON      32945
+    SEPARATOR
+    BUTTON      32944
+    BUTTON      32873
+    BUTTON      32872
+    BUTTON      32935
+END
+
+IDR_COMPOSEFRAME TOOLBAR  20, 19
+BEGIN
+    BUTTON      10519
+    BUTTON      10518
+    BUTTON      10520
+    BUTTON      42805
+    BUTTON      42803
+    BUTTON      32811
+    BUTTON      57643
+    BUTTON      57644
+    BUTTON      57635
+    BUTTON      57634
+    BUTTON      57637
+    BUTTON      10005
+    BUTTON      10007
+    BUTTON      10009
+    BUTTON      10019
+    BUTTON      10077
+    BUTTON      32790
+    BUTTON      10016
+    BUTTON      32899
+    BUTTON      42804
+    BUTTON      32839
+    BUTTON      32985
+    BUTTON      10506
+END
+
+IDR_HTMLEDITOR TOOLBAR  16, 15
+BEGIN
+    BUTTON      32786
+    BUTTON      32786
+    SEPARATOR
+    BUTTON      32957
+    SEPARATOR
+    BUTTON      32823
+    BUTTON      32825
+    BUTTON      32951
+    BUTTON      32956
+    SEPARATOR
+    BUTTON      32955
+    BUTTON      32833
+    BUTTON      10011
+    BUTTON      10012
+    SEPARATOR
+    BUTTON      32949
+    BUTTON      32867
+    BUTTON      32865
+    BUTTON      32948
+    BUTTON      32840
+    SEPARATOR
+    BUTTON      32858
+END
+
+IDR_MAINFRAME TOOLBAR  20, 19
+BEGIN
+    BUTTON      32778
+    BUTTON      10502
+    BUTTON      10501
+    BUTTON      10504
+    BUTTON      10503
+    BUTTON      10507
+    BUTTON      10505
+    BUTTON      10508
+    BUTTON      32836
+    BUTTON      32777
+    BUTTON      108
+    BUTTON      32935
+    BUTTON      32775
+    BUTTON      10102
+    BUTTON      42778
+    SEPARATOR
+    BUTTON      42796
+    BUTTON      32804
+    BUTTON      10517
+    BUTTON      10522
+    BUTTON      57607
+    BUTTON      57609
+    BUTTON      10506
+    BUTTON      32950
+    BUTTON      57636
+    BUTTON      10023
+    BUTTON      10024
+    BUTTON      10510
+    BUTTON      32827
+    BUTTON      57642
+    BUTTON      57635
+    BUTTON      57634
+    BUTTON      57637
+    BUTTON      32921
+    BUTTON      32792
+    BUTTON      32793
+    BUTTON      32926
+    BUTTON      32868
+END
+
+#endif    // “ú–{Œê resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

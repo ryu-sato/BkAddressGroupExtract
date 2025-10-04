@@ -1,0 +1,391 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLGINPUTPASS DIALOG DISCARDABLE  0, 0, 323, 63
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PGP"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "パスフレーズ(&P):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,7,8,49,10
+    EDITTEXT        IDC_EDIT1,58,7,258,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "PGPユーザーID(&U):",IDC_STATIC,8,27,61,8
+    EDITTEXT        IDC_EDIT2,71,25,245,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,241,42,36,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,279,42,37,14
+END
+
+IDD_DLGINPUTID DIALOG DISCARDABLE  0, 0, 290, 45
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PGP"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "ユーザーID:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,7,9,41,10
+    EDITTEXT        IDC_EDIT1,50,7,233,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,208,24,36,14
+    PUSHBUTTON      "Cancel",IDCANCEL,246,24,37,14
+    LTEXT           "パブリックキーを取り出したいユーザーのIDを指定してください。",
+                    IDC_STATIC,8,24,195,16
+END
+
+IDD_DLGVIEW DIALOG DISCARDABLE  0, 0, 352, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "出力結果"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "閉じる",IDOK,301,167,44,13
+    EDITTEXT        IDC_EDIT1,5,5,339,157,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_PGP_SETUP DIALOG DISCARDABLE  0, 0, 281, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PGP Settings"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "PGPのバージョン(&V):",IDC_STATIC,8,9,66,8
+    EDITTEXT        IDC_EDTPGPVERSION,75,7,31,12,ES_AUTOHSCROLL
+    LTEXT           "PGPのバージョンをあらわす３桁の数字。\n例： 651 = ver. 6.5.1 (含6.5.1 Int.)",
+                    IDC_STATIC,111,8,161,19
+    CONTROL         "PGP/&MIME (RFC2015) を使用して送信メッセージを作成",
+                    IDC_CHKPGPMIME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,
+                    53,190,10
+    DEFPUSHBUTTON   "OK",IDOK,171,75,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,224,75,50,14
+    LTEXT           "※コマンドラインバージョンのPGPのみ使用可能です。",
+                    IDC_STATIC,101,30,171,16
+END
+
+IDD_DLGINPUTPASS1 DIALOG DISCARDABLE  0, 0, 323, 63
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PGP"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "パスフレーズ(&P):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,7,8,50,10
+    EDITTEXT        IDC_EDIT1,59,7,257,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "PGPユーザーID(&U):",IDC_STATIC,8,27,61,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT2,71,25,245,13,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    DEFPUSHBUTTON   "OK",IDOK,241,42,36,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,279,42,37,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DLGINPUTPASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_DLGINPUTID, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 283
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_DLGVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_PGP_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_DLGINPUTPASS1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PGP_DECRYPT         "PGPメッセージの復号化と検証"
+    IDS_PGP_SIGN            "PGP署名をする"
+    IDS_PGP_ENCRYPT         "PGP暗号化をする"
+    IDS_PGP_SIGNENCRYPT     "PGP署名と暗号化をする"
+    IDS_PGP_ATTACHKEY       "PGP公開キーを添付する"
+    IDS_PGPMENU_DECRYPT     "PGP: 復号化と検証..."
+    IDS_PGPMENU_SIGN        "PGP: 署名..."
+    IDS_PGPMENU_ENCRYPT     "PGP: 暗号化"
+    IDS_PGPMENU_SIGNENCRYPT "PGP: 署名と暗号化..."
+    IDS_PGPMENU_ATTACHKEY   "PGP: 公開キーの添付..."
+    IDS_PGP_SETUP           "PGPプラグインの設定"
+    IDS_PGPMENU_SETUP       "PGP: 設定..."
+    IDS_PGP_ERROR           "PGPメッセージではありません"
+    IDS_PGP_NOTPROCESSED    "PGPの起動に失敗しました"
+    IDS_PGP_NORECIPIENT     "受信者が指定されていません。\n暗号化は、受信者のメールアドレスをIDとして行われます。"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PIN_NAME            "Becky! PGP プラグイン"
+    IDS_PIN_DESCRIPTION     "Becky! にPGP機能を追加します。\nコマンドライン版のPGPのみサポートします。\nソースコードはBecky! Plug-in SDKの中で公開されています。改変、再配布自由ですので、誰かもっといいプラグインを作ってください。(^^;;"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英語 (ｱﾒﾘｶ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLGINPUTID DIALOG DISCARDABLE  0, 0, 290, 45
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PGP"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "User ID:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,7,9,41,10
+    EDITTEXT        IDC_EDIT1,50,7,233,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,208,24,36,14
+    PUSHBUTTON      "Cancel",IDCANCEL,246,24,37,14
+    LTEXT           "Input PGP user id of which you want to extract a public key.",
+                    IDC_STATIC,8,24,195,16
+END
+
+IDD_DLGINPUTPASS DIALOG DISCARDABLE  0, 0, 323, 63
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PGP"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Pass Phrase:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,7,8,44,10
+    EDITTEXT        IDC_EDIT1,53,7,264,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "PGP &User Name:",IDC_STATIC,8,27,52,8
+    EDITTEXT        IDC_EDIT2,71,25,245,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,241,42,36,14
+    PUSHBUTTON      "Cancel",IDCANCEL,279,42,37,14
+END
+
+IDD_DLGINPUTPASS1 DIALOG DISCARDABLE  0, 0, 323, 63
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PGP"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Pass Phrase:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,7,8,44,10
+    EDITTEXT        IDC_EDIT1,53,7,264,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "PGP &User Name:",IDC_STATIC,8,27,52,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT2,71,25,245,13,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    DEFPUSHBUTTON   "OK",IDOK,241,42,36,14
+    PUSHBUTTON      "Cancel",IDCANCEL,279,42,37,14
+END
+
+IDD_DLGVIEW DIALOG DISCARDABLE  0, 0, 352, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Output"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,301,167,44,13
+    EDITTEXT        IDC_EDIT1,5,5,339,157,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_PGP_SETUP DIALOG DISCARDABLE  0, 0, 281, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PGP Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "PGP &Version:",IDC_STATIC,8,9,42,8
+    EDITTEXT        IDC_EDTPGPVERSION,55,7,40,12,ES_AUTOHSCROLL
+    LTEXT           "* Input 3 digit which represents the version of PGP.\ne.g. ""651"" represents 6.5.1, including ""6.5.1 Int."".",
+                    IDC_STATIC,101,8,172,19
+    CONTROL         "Use PGP/&MIME (RFC2015) for Outgoing Messages.",
+                    IDC_CHKPGPMIME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,
+                    53,174,10
+    DEFPUSHBUTTON   "OK",IDOK,171,75,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,224,75,50,14
+    LTEXT           "* You can use only the command line version of PGP.",
+                    IDC_STATIC,101,30,171,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DLGINPUTID, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 283
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_DLGINPUTPASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_DLGINPUTPASS1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_DLGVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_PGP_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PGP_DECRYPT         "Decrypt and Verify PGP message"
+    IDS_PGP_SIGN            "Sign with PGP"
+    IDS_PGP_ENCRYPT         "Encrypt with PGP"
+    IDS_PGP_SIGNENCRYPT     "Encrypt And Sign with PGP"
+    IDS_PGP_ATTACHKEY       "Attach a PGP public key"
+    IDS_PGPMENU_DECRYPT     "PGP: Decrypt And Verify..."
+    IDS_PGPMENU_SIGN        "PGP: Sign..."
+    IDS_PGPMENU_ENCRYPT     "PGP: Encrypt"
+    IDS_PGPMENU_SIGNENCRYPT "PGP: Sign And Encrypt..."
+    IDS_PGPMENU_ATTACHKEY   "PGP: Attach Public Key..."
+    IDS_PGP_SETUP           "Setup PGP plugin"
+    IDS_PGPMENU_SETUP       "PGP: Setup..."
+    IDS_PGP_ERROR           "This is not a PGP message"
+    IDS_PGP_NOTPROCESSED    "Can not launch PGP program"
+    IDS_PGP_NORECIPIENT     "No recipients are specified!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PIN_NAME            "Becky! PGP Plug-In"
+    IDS_PIN_DESCRIPTION     "Adds PGP capability to Becky!\nIt only supports command line version of PGP.\nSource code is accessible in Becky! Plug-in SDK. You can freely modify and redistribute it."
+END
+
+#endif    // 英語 (ｱﾒﾘｶ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
